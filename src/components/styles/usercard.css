@@ -1,0 +1,30 @@
+.user-container{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user-container .delete{
+    background-color: rgba(255, 94, 94,0.8);
+    width: 60%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+.delete:hover{
+    opacity: 0.5;
+}
